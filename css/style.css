@@ -1,0 +1,80 @@
+body{
+    background: #000;
+}
+.screen{
+    margin: 0 auto;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+    
+}
+#container{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: column;
+    justify-content: center;
+    align-items: center;
+    background: #444;
+    box-shadow: 0 0 100px #1bfcb1, 0 0 200px #007f00;
+    border-radius: 1em;
+    padding: 1em;
+}
+.gamers{width:100%;clear: both;}
+.gamers__table{
+    margin: 30px;
+    font-size: 24px;
+}
+.playground__row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playground__field{
+    width: 100px;
+    height: 100px;
+    background: #000;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.btn{
+    width: 90%;
+    height: 90%;
+    font-size: 50px;
+    font-weight: bold;
+    transition: 0.1s all;
+}
+.btn:active{transform: scale(0.7); background: #cec;}
+
+
+.who{
+    width: 100%;
+    color:#fff;
+    text-shadow: 0.1em 0.1em 1em #19ffb2;
+    text-align: center;
+}
+.who h2{
+    font-size: 4em;
+    margin:0;
+    padding:0;
+}
+.who h3{
+    text-shadow: 0 0 0.5em #fff, 0 0 1em #ff0000;
+    color: #000;
+    font-size: 3em;
+    margin:0;
+    padding:0;
+}
